@@ -11,5 +11,4 @@ public class SortCharectors {
 		Arrays.sort(ch);
 		System.out.println(ch);
 	}
-
 }
