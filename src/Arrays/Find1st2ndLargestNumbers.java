@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Find1st2ndLargestNumbers {

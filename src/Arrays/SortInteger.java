@@ -22,9 +22,9 @@ public class SortInteger {
 		for(int i1=0; i1<a.length; i1++){
 			for(int j1=i1+1; j1<a.length; j1++){
 				if(a[i1]<a[j1]){ 
-					temp=a[i1];
+					temp1=a[i1];
 					a[i1]=a[j1];
-					a[j1]=temp;
+					a[j1]=temp1;
 				}
 			}
 		}
