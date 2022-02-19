@@ -2,7 +2,7 @@ package Arrays;
 
 public class SortInteger {
 	public static void main(String[] args) {
-		int [] a = {5,9,3,1,8};
+		int [] a = {0,1,1,0,0,0,1,1,0};
 		int temp=0;
 		//assending order
 		for(int i=0; i<a.length; i++){
