@@ -10,10 +10,6 @@ public class MoveLastZeros {
 				count++;
 			}
 		}
-		/*while(count<arr.length){
-			arr[count]=0;
-			count++;
-		}*/
 		for(int j=count; j<arr.length;j++){
 			arr[j]=0;
 			count++;

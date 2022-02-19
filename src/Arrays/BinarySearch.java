@@ -3,22 +3,22 @@ package Arrays;
 public class BinarySearch {
 	public static void main(String[] args) {
 		int numArray[] = {5,10,15,20,25,30,35,66}; 
-	    int key = 66;
-	    int first = 0;
-	    int last=numArray.length-1; 
-	    int mid = (first + last)/2;  
-	    while( first <= last ){  
-	        if ( numArray[mid] < key ){  
-	            first = mid + 1;     
-	        }else if ( numArray[mid] == key ){ 
-	            System.out.println("Element is found at index: " + mid);  
+	    int key = 15;
+	    int n1 = 0;
+	    int n3=numArray.length-1; 
+	    int n2 = (n1 + n3)/2;  
+	    while( n1 <= n3 ){  
+	        if ( numArray[n2] < key ){  
+	            n1 = n2 + 1;     
+	        }else if ( numArray[n2] == key ){ 
+	            System.out.println("Element is found at index: " + n2);  
 	            break;  
 	        }else{  
-	            last = mid - 1;  
+	            n3 = n2 - 1;  
 	        }  
-	        mid = (first + last)/2;  
+	        n2 = (n1 + n3)/2;  
 	   }  
-	   if ( first > last ){  
+	   if ( n1 > n3 ){  
 	      System.out.println("Element is not found!");  
 	   }       
 	}

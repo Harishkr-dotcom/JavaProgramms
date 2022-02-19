@@ -1,35 +1,13 @@
 package First;
 
-public class Class4 
-{
-	public static void main(String[] args) 
-	{
-		for(int i=1; i<=3;i++)
-		{
-			if(i<=2)
-			{
-				System.out.println("Hi");
-			}else{
-				System.out.println("1");
+public class Class4 {
+	public static void main(String[] args) {
+		String s = "Harish";
+		for(int i=0;i<s.length();i++){
+			for(int j=0;j<=i;j++){
+				System.out.print(s.charAt(j));
 			}
-		}
-		for(int j=1; j<=5; j++)
-		{
-			if(j<=2)
-			{
-				System.out.println("1");
-			}else{
-				System.out.println("Hello");
-			}
+			System.out.println();
 		}
 	}
 }
-
-//Hi
-//Hi
-//1
-//1
-//1
-//Hello
-//Hello
-//Hello

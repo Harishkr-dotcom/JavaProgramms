@@ -13,6 +13,14 @@ public class ReveseSentence {
 			}
 			System.out.print(" ");
 		}
+		System.out.println();
+		for(int i=0;i<strarray.length;i++){
+			String revstr = strarray[i];
+			for(int j=revstr.length()-1;j>=0;j--){
+				System.out.print(revstr.charAt(j));
+			}
+			System.out.print(" ");
+		}
 				
 	}
 

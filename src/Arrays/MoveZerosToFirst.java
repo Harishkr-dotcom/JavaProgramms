@@ -10,10 +10,6 @@ public class MoveZerosToFirst {
 				count--;
 			}
 		}
-		/*while(count<arr.length){
-			arr[count]=0;
-			count++;
-		}*/
 		for(int j=count;j>=0;j--){
 			arr[count]=0;
 			count--;
